@@ -25,7 +25,13 @@ export default function Main() {
 
           <section className="cards-posts">
             <div className="row justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-              {cardsCreation}
+              {cardsCreation.length > 0 ? (
+                cardsCreation
+              ) : (
+                <div class="alert alert-danger text-center" role="alert">
+                  !!! Non sono presenti post da pubblicare !!!
+                </div>
+              )}
             </div>
           </section>
         </div>
