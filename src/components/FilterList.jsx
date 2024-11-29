@@ -8,8 +8,13 @@ export default function FilterList({ posts }) {
   });
 
   return tagsFilters.map((tag, index) => (
-    <button key={index} className="badge mb-3" data-color={tag}>
-      {tag}
+    <button
+      key={index}
+      type="button"
+      className="btn btn-light mb-3"
+      data-color={tag}
+    >
+      #{tag}
     </button>
   ));
 }

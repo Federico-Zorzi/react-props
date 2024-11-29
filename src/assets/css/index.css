@@ -35,8 +35,11 @@ footer .container p {
 }
 
 /* * BADGE */
-.badge {
+.badge,
+.btn {
   background-color: lightsteelblue;
+  color: white;
+  border: 0px;
   padding: 0.5rem 0.8rem;
   margin-right: 0.5rem;
 }
@@ -55,9 +58,4 @@ footer .container p {
 
 [data-color="php"] {
   background-color: rgb(42, 82, 167);
-}
-
-/* * BUTTONS */
-.btn {
-  background-color: aqua;
 }
