@@ -23,6 +23,7 @@ h1 {
 
 .card {
   max-width: 450px;
+  height: 100%;
 }
 
 .footer-paragraph {
@@ -33,6 +34,30 @@ footer .container p {
   margin-bottom: 0;
 }
 
+/* * BADGE */
+.badge {
+  background-color: lightsteelblue;
+  padding: 0.5rem 0.8rem;
+  margin-right: 0.5rem;
+}
+
+[data-badge-color="html"] {
+  background-color: rgb(211, 76, 76);
+}
+
+[data-badge-color="css"] {
+  background-color: rgb(80, 172, 80);
+}
+
+[data-badge-color="js"] {
+  background-color: rgb(44, 132, 190);
+}
+
+[data-badge-color="php"] {
+  background-color: rgb(42, 82, 167);
+}
+
+/* * BUTTONS */
 .btn {
   background-color: aqua;
 }
