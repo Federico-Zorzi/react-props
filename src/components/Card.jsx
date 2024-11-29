@@ -5,8 +5,8 @@ export default function Card({ title, image, content, tags, published }) {
   const badgesCreation = () => {
     if (Array.isArray(tags) && tags) {
       const filterForEmptyTags = tags.filter((tag) => tag !== "");
-      return filterForEmptyTags.map((tag) => (
-        <span className="badge" data-badge-color={tag}>
+      return filterForEmptyTags.map((tag, index) => (
+        <span key={index} className="badge" data-color={tag}>
           #{tag}
         </span>
       ));

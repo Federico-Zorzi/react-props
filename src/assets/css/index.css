@@ -41,19 +41,19 @@ footer .container p {
   margin-right: 0.5rem;
 }
 
-[data-badge-color="html"] {
+[data-color="html"] {
   background-color: rgb(211, 76, 76);
 }
 
-[data-badge-color="css"] {
+[data-color="css"] {
   background-color: rgb(80, 172, 80);
 }
 
-[data-badge-color="js"] {
+[data-color="js"] {
   background-color: rgb(44, 132, 190);
 }
 
-[data-badge-color="php"] {
+[data-color="php"] {
   background-color: rgb(42, 82, 167);
 }
 
